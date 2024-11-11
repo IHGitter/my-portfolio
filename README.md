@@ -15,3 +15,9 @@
 ### 現職
 * JavaScript (Angular, Ionic)
 
+## サーバーの起動
+### Angular
+docker-compose run app ng serve --host 0.0.0.0
+
+### Express
+docker-compose run app npm run start:express
